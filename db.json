@@ -1,9 +1,1255 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": "8b5e",
+      "username": "Josh15",
+      "email": "gabe4118f@gmail.com",
+      "password": "Josh@123"
+    },
+    {
+      "id": "f8b7",
+      "username": "favour",
+      "email": "joshuafavour34@gmail.com",
+      "password": "mollah@123"
+    },
+    {
+      "id": "2010",
+      "username": "favour",
+      "email": "joshuafavour34@gmail.com",
+      "password": "mollah@123"
+    },
+    {
+      "id": "1b92",
+      "username": "favour",
+      "email": "joshuafavour34@gmail.com",
+      "password": "mollah@123"
+    },
+    {
+      "id": "c395",
+      "username": "Alpha",
+      "email": "alpha.a@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "ff61",
+      "username": "Alpha",
+      "email": "alpha.a@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "6dfe",
+      "username": "aa",
+      "email": "alpha.a@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "0d9f",
+      "username": "bridget",
+      "email": "bridget@gmail.com",
+      "password": "frhfr"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": "1",
+      "name": "Soccer Ball",
+      "description": "A high-quality soccer ball.",
+      "price": 29.99,
+      "image": "https://m.media-amazon.com/images/I/81slAf9kMgL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "specifications": {
+        "material": "Synthetic leather",
+        "size": "Size 5",
+        "weight": "410 grams"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Soccer Cleats",
+      "description": "Comfortable soccer cleats for all surfaces.",
+      "price": 69.99,
+      "image": "https://m.media-amazon.com/images/I/61+AW6z2hHL._AC_SY500_.jpg",
+      "specifications": {
+        "material": "Synthetic leather",
+        "size": "Various sizes",
+        "weight": "250 grams per shoe"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Soccer Shin Guards",
+      "description": "Protective shin guards for soccer.",
+      "price": 19.99,
+      "image": "https://m.media-amazon.com/images/I/71bunUcgCkL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "Polycarbonate",
+        "size": "Medium",
+        "weight": "150 grams"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Soccer Socks",
+      "description": "Comfortable soccer socks with cushioned sole.",
+      "price": 9.99,
+      "image": "https://m.media-amazon.com/images/I/61YrSKZRp9L._AC_SX522_.jpg",
+      "specifications": {
+        "material": "Cotton blend",
+        "size": "One size fits all",
+        "weight": "50 grams per pair"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Tennis Racket",
+      "description": "Professional-grade tennis racket.",
+      "price": 99.99,
+      "image": "https://m.media-amazon.com/images/I/712mD9twWXL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "specifications": {
+        "material": "Graphite",
+        "size": "27 inches",
+        "weight": "280 grams"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Tennis Balls (Pack of 3)",
+      "description": "High-quality tennis balls, pack of 3.",
+      "price": 9.99,
+      "image": "https://m.media-amazon.com/images/I/71XpTRJ3iSL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "specifications": {
+        "material": "Felt and rubber",
+        "size": "6.7 cm diameter",
+        "weight": "56 grams per ball"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Tennis Net",
+      "description": "Durable tennis net for matches.",
+      "price": 149.99,
+      "image": "https://m.media-amazon.com/images/I/71UjnE1F7sL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Nylon",
+        "size": "3 meters x 0.9 meters",
+        "weight": "1 kg"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Tennis Bag",
+      "description": "Spacious tennis bag for rackets and gear.",
+      "price": 59.99,
+      "image": "https://m.media-amazon.com/images/I/81t9S31GmCL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Nylon",
+        "size": "Medium",
+        "weight": "500 grams"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Basketball",
+      "description": "Durable basketball designed for indoor and outdoor play.",
+      "price": 3868.71,
+      "image": "https://www.spalding.com/dw/image/v2/ABAH_PRD/on/demandware.static/-/Sites-masterCatalog_SPALDING/default/dw60c4ffd4/images/hi-res/76919__FRONT.jpg?sw=1598&sh=1982&sm=cut&sfrm=jpg",
+      "specifications": {
+        "material": "Rubber",
+        "size": "Size 7",
+        "weight": "600 grams"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Basketball Hoop",
+      "description": "Adjustable basketball hoop for outdoor play.",
+      "price": 149.99,
+      "image": "https://m.media-amazon.com/images/I/61Tezr-EElL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Steel and plastic",
+        "size": "Adjustable height",
+        "weight": "12 kg"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Basketball Jersey",
+      "description": "Breathable basketball jersey.",
+      "price": 29.99,
+      "image": "https://m.media-amazon.com/images/I/71FqculxMhL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Polyester",
+        "size": "Various sizes",
+        "weight": "150 grams"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Golf Tees",
+      "description": "Durable golf tees.",
+      "price": 4.99,
+      "image": "https://m.media-amazon.com/images/I/7163RuYXM+L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Wood",
+        "size": "2.75 inches",
+        "weight": "5 grams"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Golf Umbrella",
+      "description": "Large golf umbrella for rain protection.",
+      "price": 29.99,
+      "image": "https://m.media-amazon.com/images/I/711PJBOamNL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Nylon",
+        "size": "62 inches",
+        "weight": "500 grams"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Swim Goggles",
+      "description": "Advanced swim goggles with UV protection.",
+      "price": 25.99,
+      "image": "https://m.media-amazon.com/images/I/719VYVeyktL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Silicone",
+        "size": "Adjustable",
+        "weight": "100 grams"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Swimming Cap",
+      "description": "Comfortable swimming cap for all hair types.",
+      "price": 8.99,
+      "image": "https://m.media-amazon.com/images/I/510YGPJDS+L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Latex",
+        "size": "One size fits all",
+        "weight": "50 grams"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Dumbbells Set",
+      "description": "Adjustable dumbbells for home workouts.",
+      "price": 119.99,
+      "image": "https://m.media-amazon.com/images/I/710HAJyY22L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Cast iron",
+        "size": "2.5 - 25 kg",
+        "weight": "Variable"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Resistance Bands",
+      "description": "Set of resistance bands for strength training.",
+      "price": 24.99,
+      "image": "https://m.media-amazon.com/images/I/61JOHWufvZL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Latex",
+        "size": "30 cm",
+        "weight": "50 grams"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Exercise Ball",
+      "description": "Durable exercise ball for core workouts.",
+      "price": 29.99,
+      "image": "https://m.media-amazon.com/images/I/71tYT4vaTvL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Anti-burst PVC",
+        "size": "65 cm",
+        "weight": "600 grams"
+      }
+    },
+    {
+      "id": "19",
+      "name": "Jump Rope",
+      "description": "Adjustable jump rope for cardio workouts.",
+      "price": 14.99,
+      "image": "https://m.media-amazon.com/images/I/71wm42EtoNL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "PVC",
+        "size": "Adjustable",
+        "weight": "150 grams"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Boxing Punching Bag",
+      "description": "Heavy-duty punching bag for training.",
+      "price": 149.99,
+      "image": "https://m.media-amazon.com/images/I/61U056xbIBL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Canvas",
+        "size": "120 x 40 cm",
+        "weight": "30 kg"
+      }
+    },
+    {
+      "id": "21",
+      "name": "Climbing Harness",
+      "description": "Comfortable and adjustable climbing harness.",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/61EVNqZwQnL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Nylon",
+        "size": "Universal",
+        "weight": "400 grams"
+      }
+    },
+    {
+      "id": "22",
+      "name": "Climbing Carabiner",
+      "description": "Durable carabiner for climbing and safety.",
+      "price": 12.99,
+      "image": "https://m.media-amazon.com/images/I/81ZrhVPRQ5L._AC_UY218_.jpg",
+      "specifications": {
+        "material": "Aluminum",
+        "size": "Large",
+        "weight": "80 grams"
+      }
+    },
+    {
+      "id": "23",
+      "name": "Yoga Mat",
+      "description": "Non-slip yoga mat for comfortable workouts.",
+      "price": 39.99,
+      "image": "https://m.media-amazon.com/images/I/81k53EsViVL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "TPE",
+        "size": "183 x 61 cm",
+        "weight": "900 grams"
+      }
+    },
+    {
+      "id": "24",
+      "name": "Yoga Block",
+      "description": "Foam yoga block for support and alignment.",
+      "price": 12.99,
+      "image": "https://m.media-amazon.com/images/I/61qbjAnrxwL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "EVA foam",
+        "size": "23 x 15 x 10 cm",
+        "weight": "150 grams"
+      }
+    },
+    {
+      "id": "25",
+      "name": "Mountain Bike Helmet",
+      "description": "Safety helmet for mountain biking.",
+      "price": 69.99,
+      "image": "https://m.media-amazon.com/images/I/61AUYk2HmPL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Polycarbonate",
+        "size": "Medium",
+        "weight": "300 grams"
+      }
+    },
+    {
+      "id": "26",
+      "name": "Bike Lights Set",
+      "description": "Front and rear bike lights for visibility.",
+      "price": 19.99,
+      "image": "https://m.media-amazon.com/images/I/817uOzpwH+L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Plastic",
+        "size": "Standard",
+        "weight": "150 grams"
+      }
+    },
+    {
+      "id": "27",
+      "name": "Running Shoes",
+      "description": "Comfortable running shoes for all terrains.",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/81DDBnT01IL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Mesh and rubber",
+        "size": "Various sizes",
+        "weight": "300 grams per shoe"
+      }
+    },
+    {
+      "id": "28",
+      "name": "Running Shorts",
+      "description": "Breathable running shorts with pockets.",
+      "price": 24.99,
+      "image": "https://m.media-amazon.com/images/I/61npIzlUyNL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Polyester",
+        "size": "Various sizes",
+        "weight": "150 grams"
+      }
+    },
+    {
+      "id": "29",
+      "name": "Baseball Bat",
+      "description": "Aluminum baseball bat for all levels.",
+      "price": 79.99,
+      "image": "https://m.media-amazon.com/images/I/51WYcsNk6+L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Aluminum",
+        "size": "32 inches",
+        "weight": "800 grams"
+      }
+    },
+    {
+      "id": "30",
+      "name": "Baseball Glove",
+      "description": "Leather baseball glove for better grip.",
+      "price": 49.99,
+      "image": "https://m.media-amazon.com/images/I/71pvk+I-hHL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Leather",
+        "size": "Large",
+        "weight": "250 grams"
+      }
+    },
+    {
+      "id": "31",
+      "name": "Baseball Cap",
+      "description": "Adjustable baseball cap for sun protection.",
+      "price": 14.99,
+      "image": "https://m.media-amazon.com/images/I/71wJKbKtgYL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Cotton",
+        "size": "Adjustable",
+        "weight": "100 grams"
+      }
+    },
+    {
+      "id": "32",
+      "name": "Ski Helmet",
+      "description": "Protective ski helmet with adjustable fit.",
+      "price": 119.99,
+      "image": "https://m.media-amazon.com/images/I/71bbUcCQd7L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "ABS",
+        "size": "Medium",
+        "weight": "400 grams"
+      }
+    },
+    {
+      "id": "33",
+      "name": "Ski Poles",
+      "description": "Lightweight ski poles for better control.",
+      "price": 59.99,
+      "image": "https://m.media-amazon.com/images/I/615ErAhcFVL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Aluminum",
+        "size": "Adjustable",
+        "weight": "250 grams each"
+      }
+    },
+    {
+      "id": "34",
+      "name": "Snowboard",
+      "description": "All-mountain snowboard for various terrains.",
+      "price": 299.99,
+      "image": "https://m.media-amazon.com/images/I/81+9ZXOYEIL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Fiberglass",
+        "size": "159 cm",
+        "weight": "2.5 kg"
+      }
+    },
+    {
+      "id": "35",
+      "name": "Snowboard Boots",
+      "description": "Comfortable snowboard boots with good grip.",
+      "price": 149.99,
+      "image": "https://m.media-amazon.com/images/I/61lMnF4vr2L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Synthetic leather",
+        "size": "Various sizes",
+        "weight": "1.2 kg per pair"
+      }
+    },
+    {
+      "id": "36",
+      "name": "Hockey Stick",
+      "description": "Professional hockey stick for ice hockey.",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/41Nhn7atHlL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Composite",
+        "size": "Standard",
+        "weight": "500 grams"
+      }
+    },
+    {
+      "id": "37",
+      "name": "Hockey Puck",
+      "description": "Standard hockey puck for practice and games.",
+      "price": 4.99,
+      "image": "https://m.media-amazon.com/images/I/61SErgUkAHL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Rubber",
+        "size": "3 inches diameter",
+        "weight": "170 grams"
+      }
+    },
+    {
+      "id": "38",
+      "name": "Treadmill",
+      "description": "High-quality treadmill for home workouts.",
+      "price": 799.99,
+      "image": "https://m.media-amazon.com/images/I/51wldgKrkxL._AC_UY218_.jpg",
+      "specifications": {
+        "material": "Steel and plastic",
+        "size": "Adjustable",
+        "weight": "70 kg"
+      }
+    },
+    {
+      "id": "39",
+      "name": "Elliptical Trainer",
+      "description": "Elliptical trainer with adjustable resistance.",
+      "price": 699.99,
+      "image": "https://m.media-amazon.com/images/I/71EPmMPzNGL._AC_UY218_.jpg",
+      "specifications": {
+        "material": "Steel",
+        "size": "Adjustable",
+        "weight": "80 kg"
+      }
+    },
+    {
+      "id": "40",
+      "name": "Rowing Machine",
+      "description": "Compact rowing machine for full-body workouts.",
+      "price": 499.99,
+      "image": "https://m.media-amazon.com/images/I/61iVK4slhhL._AC_UY218_.jpg",
+      "specifications": {
+        "material": "Steel and plastic",
+        "size": "Adjustable",
+        "weight": "45 kg"
+      }
+    },
+    {
+      "id": "41",
+      "name": "Kick Scooter",
+      "description": "Durable kick scooter for kids and adults.",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/71I2QqQJEaL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Aluminum",
+        "size": "Adjustable",
+        "weight": "3 kg"
+      }
+    },
+    {
+      "id": "42",
+      "name": "Skateboard",
+      "description": "Classic skateboard for tricks and cruising.",
+      "price": 59.99,
+      "image": "https://m.media-amazon.com/images/I/71AMOwCBsfL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Maple wood",
+        "size": "32 inches",
+        "weight": "2 kg"
+      }
+    },
+    {
+      "id": "43",
+      "name": "Inline Skates",
+      "description": "Comfortable inline skates for smooth rides.",
+      "price": 119.99,
+      "image": "https://m.media-amazon.com/images/I/81sVsxHAmhL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Synthetic leather",
+        "size": "Various sizes",
+        "weight": "1.5 kg per pair"
+      }
+    },
+    {
+      "id": "44",
+      "name": "Kayak Paddle",
+      "description": "Lightweight kayak paddle for smooth paddling.",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/51boSDvGinL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Aluminum",
+        "size": "220 cm",
+        "weight": "1 kg"
+      }
+    },
+    {
+      "id": "45",
+      "name": "Camping Tent",
+      "description": "Waterproof camping tent for outdoor adventures.",
+      "price": 199.99,
+      "image": "https://m.media-amazon.com/images/I/71AAdnuOP3L._AC_UY218_.jpg",
+      "specifications": {
+        "material": "Nylon",
+        "size": "2-person",
+        "weight": "2.5 kg"
+      }
+    },
+    {
+      "id": "46",
+      "name": "Sleeping Bag",
+      "description": "Warm sleeping bag for camping trips.",
+      "price": 79.99,
+      "image": "https://m.media-amazon.com/images/I/81D0F56EvDL._AC_UY218_.jpg",
+      "specifications": {
+        "material": "Polyester",
+        "size": "Standard",
+        "weight": "1 kg"
+      }
+    },
+    {
+      "id": "47",
+      "name": "Headlamp",
+      "description": "Bright headlamp for night hiking and camping.",
+      "price": 29.99,
+      "image": "https://m.media-amazon.com/images/I/61cmDuSqqkL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Plastic",
+        "size": "Adjustable",
+        "weight": "150 grams"
+      }
+    },
+    {
+      "id": "48",
+      "name": "Fishing Rod",
+      "description": "Durable fishing rod for freshwater and saltwater fishing.",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/81gE6dy-WRL._AC_UY218_.jpg",
+      "specifications": {
+        "material": "Fiberglass",
+        "size": "2.1 meters",
+        "weight": "250 grams"
+      }
+    },
+    {
+      "id": "49",
+      "name": "Fishing Reel",
+      "description": "Smooth fishing reel for easy casting.",
+      "price": 59.99,
+      "image": "https://m.media-amazon.com/images/I/712ZLjLAMEL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Aluminum",
+        "size": "Medium",
+        "weight": "200 grams"
+      }
+    },
+    {
+      "id": "50",
+      "name": "Golf Club Set",
+      "description": "Complete golf club set for beginners and pros.",
+      "price": 299.99,
+      "image": "https://m.media-amazon.com/images/I/81UTxLrqHzL._AC_UY218_.jpg",
+      "specifications": {
+        "material": "Graphite",
+        "size": "Set of 12 clubs",
+        "weight": "2.5 kg"
+      }
+    },
+    {
+      "id": "51",
+      "name": "Golf Rangefinder",
+      "description": "Our range finder golf allows you to lock on the flag up to 300 yards.",
+      "price": 89,
+      "image": "https://m.media-amazon.com/images/I/81aQkyjX1PL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "Magnet,Silicon",
+        "size": "Standard",
+        "weight": "2 kg"
+      }
+    },
+    {
+      "id": "52",
+      "name": "Golf Net",
+      "description": " .",
+      "price": 58,
+      "image": "https://m.media-amazon.com/images/I/71Rwssfa9DL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "Nylon",
+        "size": "7ft",
+        "weight": "20kg"
+      }
+    },
+    {
+      "id": "53",
+      "name": "Golf training mat",
+      "description": "olf Training Mat for Swing Detection - Path Visual Feedback.",
+      "price": 29.54,
+      "image": "https://m.media-amazon.com/images/I/81tdJa6I+tL._AC_SL1500_.jpg",
+      "specifications": {
+        "material": "Graphite",
+        "size": "Set of 12 clubs",
+        "weight": "2.5 kg"
+      }
+    },
+    {
+      "id": "54",
+      "name": "Basketball Hoop",
+      "description": "Indoor for Kids, Mini Basketball Hoop with 3 Balls.",
+      "price": 29,
+      "image": "https://m.media-amazon.com/images/I/817W5+Fx4TL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "plastic",
+        "size": "Adjustable height",
+        "weight": "16 kg"
+      }
+    },
+    {
+      "id": "55",
+      "name": "Ball Storage Bin",
+      "description": "48 Gals Ball Holder for Soccer, Basketball, Ball Cart, Rolling Basketball.",
+      "price": 57,
+      "image": "https://m.media-amazon.com/images/I/91KNpO57Z0L._AC_SX425_.jpg",
+      "specifications": {
+        "material": "plastic",
+        "size": "Standard",
+        "weight": " 7 pounds"
+      }
+    },
+    {
+      "id": "56",
+      "name": "Agility Soccer Cones",
+      "description": "Training Cones for Soccer Practice, Football, Basketball.",
+      "price": 299.99,
+      "image": "https://m.media-amazon.com/images/I/71l4XXi78SL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "plastic",
+        "size": "Standard",
+        "weight": " 20 grams"
+      }
+    },
+    {
+      "id": "57",
+      "name": "Football Gloves",
+      "description": "Sticky Wide Receiver Gloves for Kids & Adult.",
+      "price": 19.8,
+      "image": "https://m.media-amazon.com/images/I/71HXsWS+7VL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "silicon",
+        "size": "small",
+        "weight": "19 grams"
+      }
+    },
+    {
+      "id": "58",
+      "name": "Padded Blocking Guards",
+      "description": "Basketball Blocking Pads,2 Pack Padded Contact Sticks,Defense Sticks.",
+      "price": 35.99,
+      "image": "https://m.media-amazon.com/images/I/51T3v4zh9ML.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "specifications": {
+        "material": "rubber",
+        "size": "large",
+        "weight": " 20 kg"
+      }
+    },
+    {
+      "id": "59",
+      "name": "Basketball Backpack",
+      "description": "Ball Compartment and Shoe Compartment to Store Sports Shoes Water Bottles Laptops and Daily Necessities.",
+      "price": 149.99,
+      "image": "https://m.media-amazon.com/images/I/71yR0KdCtUL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "steel",
+        "size": "adjustable",
+        "weight": "30 kg"
+      }
+    },
+    {
+      "id": "60",
+      "name": "High-Density Foam Roller",
+      "description": "Foam Roller for Muscle Recovery, High-Density, Long-Lasting.",
+      "price": 22.99,
+      "image": "https://m.media-amazon.com/images/I/71xDzRJuq-L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "foam",
+        "size": "medium",
+        "weight": "0.7 kg"
+      }
+    },
+    {
+      "id": "61",
+      "name": "Multi-Function Resistance Bands",
+      "description": "Set of Resistance Bands for Exercise, Includes Various Tension Levels.",
+      "price": 19.99,
+      "image": "https://m.media-amazon.com/images/I/71RoFBJpKlL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "latex",
+        "size": "varied",
+        "weight": "0.5 kg"
+      }
+    },
+    {
+      "id": "62",
+      "name": "Durable Soccer Ball",
+      "description": "High-Quality Soccer Ball for Training and Matches, Durable and Long-Lasting.",
+      "price": 15.99,
+      "image": "https://m.media-amazon.com/images/I/7173scKSolL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "synthetic leather",
+        "size": "size 5",
+        "weight": "0.45 kg"
+      }
+    },
+    {
+      "id": "63",
+      "name": " Tennis Ball Hopper",
+      "description": "Tennis Hopper for Easy Pick Up, Carrying, and Storage, Durable, Convenient.",
+      "price": 44.99,
+      "image": "https://m.media-amazon.com/images/I/61ds-KJXVQL._AC_SY450_.jpg",
+      "specifications": {
+        "material": "metallic",
+        "size": "standard",
+        "weight": "6 kg"
+      }
+    },
+    {
+      "id": "64",
+      "name": "Adjustable Dumbbell Set",
+      "description": "Versatile Adjustable Dumbbells, Easy Weight Adjustment, Compact Design.",
+      "price": 99.99,
+      "image": "https://m.media-amazon.com/images/I/61qr7HWAWgL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "metal",
+        "size": "adjustable",
+        "weight": "2x5 kg"
+      }
+    },
+    {
+      "id": "65",
+      "name": "Compact Treadmill",
+      "description": "Space-Saving Compact Treadmill, Ideal for Home Use, Adjustable Speed Settings.",
+      "price": 299.99,
+      "image": "https://m.media-amazon.com/images/I/81c-KgCZTJL._AC_UY218_.jpg",
+      "specifications": {
+        "material": "steel and plastic",
+        "size": "compact",
+        "weight": "45 kg"
+      }
+    },
+    {
+      "id": "66",
+      "name": "Fitness-Tracker ",
+      "description": "Stress Management, Workout Intensity, Sleep Tracking.",
+      "price": 79.0,
+      "image": "https://m.media-amazon.com/images/I/61Eyp16MspL._AC_SX522_.jpg",
+      "specifications": {
+        "material": "rubber",
+        "size": "medium",
+        "weight": "1kg kg"
+      }
+    },
+    {
+      "id": "67",
+      "name": "Yoga Mat with Strap",
+      "description": "Comfortable Yoga Mat with Carry Strap, Non-Slip Surface, Extra Padding.",
+      "price": 29.99,
+      "image": "https://m.media-amazon.com/images/I/71I2r88GXhL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "TPE",
+        "size": "standard",
+        "weight": "1 kg"
+      }
+    },
+    {
+      "id": "68",
+      "name": "Collapsible Exercise Bike",
+      "description": "Foldable Exercise Bike with Adjustable Resistance, Ideal for Home Workouts.",
+      "price": 199.99,
+      "image": "https://m.media-amazon.com/images/I/71mFrgQZxEL._AC_UY218_.jpg",
+      "specifications": {
+        "material": "steel and plastic",
+        "size": "foldable",
+        "weight": "30 kg"
+      }
+    },
+    {
+      "id": "69",
+      "name": "High-Performance Boxing Gloves",
+      "description": "Premium Boxing Gloves with Gel Padding, Suitable for Sparring and Heavy Bag Training.",
+      "price": 79.99,
+      "image": "https://m.media-amazon.com/images/I/71RMj7jzsWL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "leather",
+        "size": "large",
+        "weight": "1 kg"
+      }
+    },
+    {
+      "id": "70",
+      "name": "Heavy Bag Stand",
+      "description": "Sturdy Stand for Heavy Punching Bags, Adjustable Height, Easy Assembly.",
+      "price": 139.99,
+      "image": "https://m.media-amazon.com/images/I/61XogTrEclL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "steel",
+        "size": "adjustable",
+        "weight": "20 kg"
+      }
+    },
+    {
+      "id": "71",
+      "name": "Sports Water Bottle",
+      "description": "Durable Sports Water Bottle with Leak-Proof Lid, Ideal for Hydration During Workouts.",
+      "price": 8.99,
+      "image": "https://m.media-amazon.com/images/I/61i-tbvyXJL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "BPA-free plastic",
+        "size": "750 ml",
+        "weight": "1.2 kg"
+      }
+    },
+    {
+      "id": "72",
+      "name": "Inflatable Paddle Board",
+      "description": "Portable Inflatable Paddle Board with Pump, Ideal for Water Sports and Recreation.",
+      "price": 349.99,
+      "image": "https://m.media-amazon.com/images/I/714gMcJzHaL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "PVC",
+        "size": "10 feet",
+        "weight": "8 kg"
+      }
+    },
+    {
+      "id": "73",
+      "name": "Speed Training Kit",
+      "description": "Resistance Band, Speed and Agility Equipment for Sprint and Football, Basketball, Soccer.",
+      "price": 159.99,
+      "image": "https://m.media-amazon.com/images/I/71HvujB3liL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "silicon",
+        "size": "adjustable",
+        "weight": "standard"
+      }
+    },
+    {
+      "id": "74",
+      "name": "Outdoor Sports Tent",
+      "description": "Durable Sports Tent for Outdoor Events, Quick Setup, Weather Resistant.",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/71c9kApV94L._AC_UY218_.jpg",
+      "specifications": {
+        "material": "nylon",
+        "size": "4-person",
+        "weight": "2.5 kg"
+      }
+    },
+    {
+      "id": "75",
+      "name": "Waterproof Gym Bag",
+      "description": "Large Waterproof Gym Bag with Multiple Compartments, Ideal for Carrying Sports Gear.",
+      "price": 34.99,
+      "image": "https://m.media-amazon.com/images/I/81QwmKfqpAL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "nylon",
+        "size": "4-person",
+        "weight": "2.5 kg"
+      }
+    },
+    {
+      "id": "76",
+      "name": "Pro Adjustable Resistance Bands",
+      "description": "Set of 5 Adjustable Resistance Bands for Strength Training and Flexibility.",
+      "price": 29.99,
+      "image": "https://m.media-amazon.com/images/I/51hAAyf8AYL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "latex",
+        "size": "varied",
+        "weight": "0.8 kg"
+      }
+    },
+    {
+      "id": "77",
+      "name": "Heavy-Duty Agility Ladder",
+      "description": "Adjustable Agility Ladder for Speed and Coordination Training.",
+      "price": 22.99,
+      "image": "https://m.media-amazon.com/images/I/710FWebkX3L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "nylon",
+        "size": "adjustable",
+        "weight": "0.6 kg"
+      }
+    },
+    {
+      "id": "78",
+      "name": "Durable Kettlebell",
+      "description": "Solid Kettlebell for Strength Training, Available in Multiple Weights.",
+      "price": 45.99,
+      "image": "https://m.media-amazon.com/images/I/71Ax1NYcy8L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "cast iron",
+        "size": "varied",
+        "weight": "8 kg"
+      }
+    },
+    {
+      "id": "79",
+      "name": "Compact Yoga Block Set",
+      "description": "Set of 2 High-Density Yoga Blocks for Support and Flexibility.",
+      "price": 15.99,
+      "image": "https://m.media-amazon.com/images/I/81dr2GX+ncL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "EVA foam",
+        "size": "standard",
+        "weight": "0.5 kg"
+      }
+    },
+    {
+      "id": "80",
+      "name": "High-Performance Stability Ball",
+      "description": "Durable Stability Ball for Core Strength and Balance Exercises.",
+      "price": 19.99,
+      "image": "https://m.media-amazon.com/images/I/51T5RPDAS1L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "PVC",
+        "size": "65 cm",
+        "weight": "0.9 kg"
+      }
+    },
+    {
+      "id": "81",
+      "name": "Adjustable Weight Bench",
+      "description": "Versatile Weight Bench with Multiple Incline Positions for Full Body Workouts.",
+      "price": 149.99,
+      "image": "https://m.media-amazon.com/images/I/61M16QBIllL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "steel",
+        "size": "adjustable",
+        "weight": "25 kg"
+      }
+    },
+    {
+      "id": "82",
+      "name": "Professional Speed Bag",
+      "description": "Speed Bag for Reflex and Hand-Eye Coordination Training.",
+      "price": 39.99,
+      "image": "https://m.media-amazon.com/images/I/91YF3ALANVL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "leather",
+        "size": "medium",
+        "weight": "0.6 kg"
+      }
+    },
+    {
+      "id": "83",
+      "name": "Gamma",
+      "description": "Gamma training markers are great for any sport! Tennis, Soccer, Basketball, Football, Golf, Baseball, Kickball.",
+      "price": 30.99,
+      "image": "https://m.media-amazon.com/images/I/81fLGgflg4L._AC_SX425_.jpg",
+      "specifications": {
+        "material": "plastic",
+        "size": "adjustable",
+        "weight": "0.5 poundes"
+      }
+    },
+    {
+      "id": "84",
+      "name": "Durable Medicine Ball",
+      "description": "High-Quality Medicine Ball for Functional Training and Strength Building.",
+      "price": 34.99,
+      "image": "https://m.media-amazon.com/images/I/5118gh9Lq2L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "rubber",
+        "size": "varied",
+        "weight": "6 kg"
+      }
+    },
+    {
+      "id": "85",
+      "name": "Adjustable Dumbbell Set",
+      "description": "Set of Adjustable Dumbbells with Multiple Weight Options for Home Workouts.",
+      "price": 119.99,
+      "image": "https://m.media-amazon.com/images/I/61PP1UXDhmL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "metal",
+        "size": "adjustable",
+        "weight": "2x10 kg"
+      }
+    },
+    {
+      "id": "86",
+      "name": "Yoga Wheel",
+      "description": "Yoga Wheel for Stretching and Improving Flexibility and Balance.",
+      "price": 25.99,
+      "image": "https://m.media-amazon.com/images/I/81XE7Nt5YgL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "TPE",
+        "size": "standard",
+        "weight": "1 kg"
+      }
+    },
+    {
+      "id": "87",
+      "name": "Resistance Bands Set with Handles",
+      "description": "Set of Resistance Bands with Comfortable Handles for Various Exercises.",
+      "price": 32.99,
+      "image": "https://m.media-amazon.com/images/I/81lNzryWq8L._AC_UL320_.jpg",
+      "specifications": {
+        "material": "latex",
+        "size": "varied",
+        "weight": "0.7 kg"
+      }
+    },
+    {
+      "id": "88",
+      "name": "Adjustable Inline Skates",
+      "description": "Comfortable Inline Skates with Adjustable Size for Different Foot Sizes.",
+      "price": 59.99,
+      "image": "https://m.media-amazon.com/images/I/8179g6b0taL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "plastic and metal",
+        "size": "adjustable",
+        "weight": "1.2 kg"
+      }
+    },
+    {
+      "id": "89",
+      "name": "Multi-Use Sports Net",
+      "description": "Versatile Sports Net for Tennis, Volleyball, and Other Court Games.",
+      "price": 88.99,
+      "image": "",
+      "specifications": {
+        "material": "nylon",
+        "size": "standard",
+        "weight": "1.5 kg"
+      }
+    },
+    {
+      "id": "90",
+      "name": "Heavy-Duty Pull-Up Bar",
+      "description": "Sturdy Pull-Up Bar for Home Gym, Supports Multiple Exercise Variations.",
+      "price": 49.99,
+      "image": "https://m.media-amazon.com/images/I/71ZnxRo6FWL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "steel",
+        "size": "adjustable",
+        "weight": "4 kg"
+      }
+    },
+    {
+      "id": "91",
+      "name": "Compact Elliptical Trainer",
+      "description": "Space-Saving Elliptical Trainer with Adjustable Resistance for Home Workouts.",
+      "price": 249.99,
+      "image": "https://m.media-amazon.com/images/I/71ZyVsrbu9L._AC_UY218_.jpg",
+      "specifications": {
+        "material": "steel and plastic",
+        "size": "compact",
+        "weight": "32 kg"
+      }
+    },
+    {
+      "id": "92",
+      "name": "High-Density Foam Roller",
+      "description": "Durable Foam Roller for Muscle Recovery and Flexibility Enhancement.",
+      "price": 19.99,
+      "image": "https://m.media-amazon.com/images/I/71HDNzZMUAL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "EVA foam",
+        "size": "standard",
+        "weight": "0.7 kg"
+      }
+    },
+    {
+      "id": "93",
+      "name": "Puzzle Exercise Mat",
+      "description": "Interlocking Foam Floor Tiles for Home Gym, Mat for Home Workout Equipment, Floor Padding.",
+      "price": 25,
+      "image": "https://m.media-amazon.com/images/I/81MfOTcByXL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "rubber",
+        "size": "standard",
+        "weight": "2 kg"
+      }
+    },
+    {
+      "id": "94",
+      "name": "Perfect Fitness Pushup Stands",
+      "description": "Padded comfort grips keep wrists in neutral position.",
+      "price": 15,
+      "image": "https://m.media-amazon.com/images/I/61Ys5BC2WTL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "silicon",
+        "size": "standard",
+        "weight": "13kg"
+      }
+    },
+    {
+      "id": "95",
+      "name": "NetBall Net",
+      "description": "Made to be used during competitive netball matches.",
+      "price": 9,
+      "image": "https://m.media-amazon.com/images/I/81MfOTcByXL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "polythylene",
+        "size": "15 inches",
+        "weight": "8kg"
+      }
+    },
+    {
+      "id": "96",
+      "name": "PremierAdapter Inflating Pump Needle",
+      "description": "Interlocking Foam Floor Tiles for Home Gym, Mat for Home Workout Equipment, Floor Padding.",
+      "price": 5,
+      "image": "https://m.media-amazon.com/images/I/51GI48NBIEL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "metallic",
+        "size": "3 pieces",
+        "weight": "2 kg"
+      }
+    },
+    {
+      "id": "97",
+      "name": "FORZA Pro Reversible Netball Bibs",
+      "description": "Design with 5 Color Combinations - Ideal for Schools & Sports Clubs.",
+      "price": 70,
+      "image": "https://m.media-amazon.com/images/I/81MfOTcByXL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "Polyester",
+        "size": "5 color combination",
+        "weight": "500 grams"
+      }
+    },
+    {
+      "id": "98",
+      "name": "Outdoor Adjustable Target Net",
+      "description": ".",
+      "price": 195,
+      "image": "https://m.media-amazon.com/images/I/81oRerejSjL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "Aluminium",
+        "size": "standard",
+        "weight": "7 kg"
+      }
+    },
+    {
+      "id": "99",
+      "name": "Knee Sleeves",
+      "description": "High-Performance Knee Compression Support For Squats, Weight Lifting - Men and Women.",
+      "price": 49.55,
+      "image": "https://m.media-amazon.com/images/I/61Xbm9z4woL._AC_SX425_.jpg",
+      "specifications": {
+        "material": "Neoprene",
+        "size": "standard",
+        "weight": "1 kg"
+      }
+    },
+
+    {
+      "id": "100",
+      "name": " Ab Roller Wheel",
+      "description": "Abs Workout Equipment for Abdominal & Core Strength Training, Exercise Wheels for Home Gym, Fitness Equipment for Core Workout with Knee Pad Accessories.",
+      "price": 25.59,
+      "image": "https://m.media-amazon.com/images/I/71WYhvuQfbL._AC_UL320_.jpg",
+      "specifications": {
+        "material": "stainless steel",
+        "size": "standard",
+        "weight": "1.50 ponds"
+      }
+    }
+  ]
 }
